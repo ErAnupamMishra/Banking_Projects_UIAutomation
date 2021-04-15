@@ -12,6 +12,7 @@ const myurl = "https://www.anz.com.au/personal/home-loans/calculators-tools/much
 //Few variables
 var xpath = '';
 var actualValue = '';
+
 Before((scenario) => {
   this.scenarioName = scenario.pickle.name;
   console.log(this.scenarioName);
